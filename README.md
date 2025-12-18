@@ -4,9 +4,24 @@
 
 [![Flutter](https://img.shields.io/badge/Flutter-3.38.1-blue.svg)](https://flutter.dev/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.115-green.svg)](https://fastapi.tiangolo.com/)
-[![LogMeal API](https://img.shields.io/badge/LogMeal-Food%20AI-orange.svg)](https://logmeal.com/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Clarifai](https://img.shields.io/badge/Clarifai-Food%20AI-blue.svg)](https://clarifai.com/) [![USDA](https://img.shields.io/badge/USDA-FoodData%20Central-green.svg)](https://fdc.nal.usda.gov/)[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
+
+## ✅ Current Status
+
+### Web App (Completed)
+- ✅ FastAPI backend with Clarifai food recognition
+- ✅ USDA FoodData Central integration for nutrition data
+- ✅ Beautiful gradient UI with drag-and-drop upload
+- ✅ Real-time food analysis with confidence scores
+- ✅ Live demo at: http://localhost:8000/
+
+### Mobile App (In Progress)
+- 🚧 Flutter mobile app development
+- 🚧 Camera integration
+- 🚧 Google Play Store preparation
+
+---
 ## 📱 Demo
 
 **Core Features:**
@@ -35,20 +50,17 @@
          │ REST API
          ▼
 ┌─────────────────┐
-│  LogMeal API    │
-│  (Food AI)      │
+│ Clarifai API  ││  (Food AI)      │
 └─────────────────┘
 ```
 
 **Tech Stack:**
 - **Frontend**: Flutter (Dart) - Cross-platform mobile UI
 - **Backend**: FastAPI (Python) - High-performance API proxy
-- **AI Service**: LogMeal Food Recognition API
 - **Database**: SQLite (local meal history)
 - **State Management**: Provider pattern
 
----
-
+- **AI Service**: Clarifai (Food Recognition) + USDA FoodData Central (Nutrition Data)
 ## 🚀 Quick Start
 
 ### Prerequisites
